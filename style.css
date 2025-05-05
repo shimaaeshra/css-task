@@ -1,1 +1,28 @@
-p { }
+body { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: antiquewhite;
+      box-sizing: border-box; 
+    }
+
+h1{ font-size: large;
+     color:rgb(80, 128, 80);
+      text-align: center;
+    }
+
+
+h2{ font-size: medium;
+     color:rgb(196, 186, 103); 
+     text-align:left;
+    }
+    .blog-post {
+        margin: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        box-sizing: border-box;
+    }
+    
+    /* Paragraph spacing */
+    .blog-post p {
+        margin-bottom: 10px;
+        line-height: 1.6;
+    }
